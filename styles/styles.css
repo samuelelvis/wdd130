@@ -1,8 +1,8 @@
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 nav {
     background-color: darkblue;
@@ -25,7 +25,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
+    /*float: right;*/
 }
 
 p {
@@ -65,7 +65,7 @@ footer {
 
 /* "Class Selectors" */
 
-.box {
+/*.box {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
@@ -77,3 +77,4 @@ aside {
     text-align: center;
     border: 20px;
 }
+*/
