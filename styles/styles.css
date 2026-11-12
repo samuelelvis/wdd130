@@ -34,17 +34,18 @@ p {
 
 main {
     max-width: 840px;
-    margin: 20px;
-    padding: 10px;
+    /*margin: 20px;
+    padding: 10px;*/
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px;
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
+    text-align: center;
 }
 
 aside img {
@@ -57,7 +58,7 @@ p {
     ;
 }
 
-footer {
+/*footer {
     margin-top: 15px;
     border-top: 1px solid;
     text-align: center;
