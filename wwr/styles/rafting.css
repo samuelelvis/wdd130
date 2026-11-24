@@ -1,7 +1,7 @@
 :root {
     --primary-color: white;
     --secondary-color: #f4f;
-    --accent1-color: green;
+    --accent1-color: red;
     --accent2-color: #000;
     --heading-font: "Times New Roman", serif;
     --body-font: arial, sans-serif;
@@ -20,14 +20,19 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color)
+    color: var(--accent2-color)
 }
 
 header,
 main,
 footer {
     width: 840px;
-    margin: 0 auto;
+    padding: 20px;
+}
+
+footer img {
+    border-bottom: 50px;
+
 }
 
 h1,
@@ -36,9 +41,7 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
@@ -50,26 +53,61 @@ article {
 
 .hero {
     position: relative;
+    background-image: url(../images/rafting59_600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
+}
+
+article p {
+    color: #fff;
+
+}
+
+section p {
+    margin-top: 30px;
+}
+
+h1,
+h2 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 8px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
 }
 
+h2 {
+    position: relative;
+    margin-top: auto;
+}
+
+article {
+    position: relative;
+    background-color: var(--accent1-color);
+    margin: 20px;
+    padding: 1px;
+    top: 260px;
+}
+
 .hero article img {
     float: right;
     width: 125px;
 }
+
+/*main {
+    background-image: url(../images/rafting59_600.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
