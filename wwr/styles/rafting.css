@@ -20,7 +20,8 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    text-align: center;
 }
 
 header,
@@ -32,7 +33,6 @@ footer {
 
 footer img {
     border-bottom: 50px;
-
 }
 
 h1,
@@ -95,9 +95,13 @@ h2 {
 article {
     position: relative;
     background-color: var(--accent1-color);
-    margin: 20px;
+    margin: 10px;
     padding: 1px;
     top: 260px;
+}
+
+.div {
+    display: grid;
 }
 
 .hero article img {
@@ -111,3 +115,21 @@ article {
     background-attachment: fixed;
     background-size: cover;
 }*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
