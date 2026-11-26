@@ -21,7 +21,6 @@ header {
 body {
     font-family: var(--body-font);
     color: var(--accent2-color);
-    text-align: center;
 }
 
 header,
@@ -89,7 +88,9 @@ h2 {
 
 h2 {
     position: relative;
-    margin-top: auto;
+    margin: 40px;
+    padding: 10px;
+
 }
 
 article {
@@ -132,4 +133,40 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.para {
+    width: 150px;
+    height: auto;
+
+    margin: 10px 20px 10px 0;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
