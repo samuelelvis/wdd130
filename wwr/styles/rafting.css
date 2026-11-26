@@ -1,14 +1,14 @@
 :root {
     --primary-color: white;
-    --secondary-color: #f4f;
-    --accent1-color: red;
+    --secondary-color: red;
+    --accent1-color: skyblue;
     --accent2-color: #000;
     --heading-font: "Times New Roman", serif;
     --body-font: arial, sans-serif;
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--accent2-color)
 }
 
